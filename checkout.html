@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Wanted Watch - checkout</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/plugins/swiper/css/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="js/plugins/aos/aos.css"/>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon.png"/>
+</head>
+<body>
+<header>
+    <div class="navbar-container smart-scroll navbar-transparent back-light">
+        <div class="inner-cont ww--mw">
+            <div class="logo-container">
+                <a href="index.html">
+                    <img class="me-2 logo-small" src="images/logo-small.svg" alt="wantedwatch logo">
+                    <img class="logo-big" src="images/logo-name-big.svg" alt="wantedwatch logo">
+                </a>
+            </div>
+            <div class="nav-menu-container">
+                <div class="item-list">
+                    <a href="index.html" class="menu-item">Home</a>
+                    <a href="about.html" class="menu-item">Who we are</a>
+                    <span class="menu-item menu-item-toggle">
+                        Brands
+                    </span>
+                    <div class="menu-dropdown">
+                        <div class="row">
+                            <div class="col-6 col-sm-4 menu-brands-list">
+                                <a href="category.html">Rolex</a>
+                                <a href="category.html">Patek Philippe</a>
+                                <a href="category.html">Audemars Pidget</a>
+                                <a href="category.html">Richard Mille</a>
+                            </div>
+                            <div class="col-6 col-sm-4 menu-brands-list">
+                                <a href="category.html">Omega</a>
+                                <a href="category.html">Bulgari</a>
+                                <a href="category.html">Cartier</a>
+                                <a href="category.html">F.P. Journe</a>
+                            </div>
+                            <div class="col-6 col-sm-4 menu-brands-list">
+                                <a href="category.html">Vacheron Constantine </a>
+                                <a href="category.html">Jaeger Le Coutre</a>
+                                <a href="category.html">Collectibles</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="menu-item">Contacts</a>
+                </div>
+
+                <div class="info-container">
+                    <div class="searchbar-container">
+                        <form action="" class="position-relative">
+                            <input type="text" name="search_bar" id="search_bar" placeholder="Search...">
+
+                            <button type="submit" id="search_bar_btn">
+                                <img src="images/icons/search-icon.svg" alt="searchbar" width="20">
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="cart-container">
+                        <a href="checkout.html">
+                            <span class="cart-icon-container">
+                                <img src="images/icons/cart-icon.svg" alt="cart" width="20">
+                                <span>3</span>
+                            </span>
+                            CART
+                        </a>
+                    </div>
+                    <div class="language-selector">
+                        <div class="dropdown">
+                            <div class="dropdown-toggle language-selector lang-dd" data-bs-toggle="dropdown">
+                                IT
+                            </div>
+                            <ul class="dropdown-menu lang-dd">
+                                <li><a class="dropdown-item" href="#">Italian</a></li>
+                                <li><a class="dropdown-item" href="#">English</a></li>
+                                <li><a class="dropdown-item" href="#">Francais</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mobile-menu-btn">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fixed-social-container">
+        <a target="_blank" href="https://www.instagram.com/wantedwatch/">
+            <img class="mb-2" src="images/icons/ig-icon.svg" alt="instagram" width="26">
+        </a>
+        <a href="tel:+393922007080">
+            <img src="images/icons/wp-icon.svg" alt="whatsapp" width="26">
+        </a>
+    </div>
+</header>
+<main>
+    <div class="ww--mw px-0 position-relative checkout">
+        <section class="page-header">
+            <p class="page-title">YOUR ORDER</p>
+            <div class="breadcrumb">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    <li>
+                        <a href="product-detail.html" class="active">Your order</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <form action="">
+            <section class="checkout-section">
+                <div class="summary-container">
+                    <div class="product-list">
+                        <div class="product">
+                            <img class="product-image img-fluid" src="images/product-detail2.jpg" alt="product image name">
+                            <div class="product-info">
+                                <div class="details">
+                                    <p class="product-name">ROLEX DATEJUST</p>
+                                    <p class="product-ref">Ref. 126334</p>
+                                </div>
+                                <div class="product-cta">
+                                    <div class="price">
+                                        €52 000
+                                    </div>
+                                    <a href="#" class="remove-btn">Remove</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <img class="product-image img-fluid" src="images/product-detail.jpg" alt="product image name">
+                            <div class="product-info">
+                                <div class="details">
+                                    <p class="product-name">ROLEX DAITONA</p>
+                                    <p class="product-ref">Ref. 1226334</p>
+                                </div>
+                                <div class="product-cta">
+                                    <div class="price">
+                                        €66 000
+                                    </div>
+                                    <a href="#" class="remove-btn">Remove</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shipping-container">
+                        <p class="title">Shipping:</p>
+                        <p class="shipping-total">€ 125</p>
+                    </div>
+                    <div class="total-container">
+                        <p class="title">Total:</p>
+                        <p class="checkout-total">€75 125</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="billing-details">
+            <h3 class="title">Billing Details</h3>
+            <div class="row">
+                <div class="col-12 col-sm-6 mb-5">
+                    <div class="ww-input-container">
+                        <input type="text" id="billing_name" name="billing_name" placeholder="Your name" required>
+                        <label for="billing_name">YOUR FIRST NAME*</label>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 mb-5">
+                    <div class="ww-input-container">
+                        <input type="text" id="billing_surname" name="billing_surname" placeholder="Your surname" required>
+                        <label for="billing_surname">YOUR LAST NAME*</label>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="ww-input-container mb-5">
+                        <input type="text" id="billing_company_name" name="billing_company_name" placeholder="Name of the company">
+                        <label for="billing_company_name">COMPANY NAME</label>
+                    </div>
+                </div>
+
+                <div class="col-6 mb-5">
+                    <div class="ww-input-container">
+                        <input type="text" id="vat_number" name="vat_number" placeholder="VAT number">
+                        <label for="vat_number">VAT NUMBER</label>
+                    </div>
+                </div>
+
+                <div class="col-6 mb-5">
+                    <div class="ww-input-container">
+                        <input type="text" id="tax_id_code" name="tax_id_code" placeholder="tax ID code" >
+                        <label for="tax_id_code">TAX ID CODE</label>
+                    </div>
+                </div>
+
+                <div class="col-6 mb-5">
+                    <div class="ww-input-container">
+                        <input type="text" id="sdi" name="sdi" placeholder="Recipient code" >
+                        <label for="sdi">RECIPIENT CODE</label>
+                    </div>
+                </div>
+
+                <div class="col-6 mb-5">
+                    <div class="ww-input-container">
+                        <input type="text" id="pec" name="pec" placeholder="Enter Address" >
+                        <label for="pec">PEC ADDRESS</label>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 mb-5">
+                    <label for="billing_country">COUNTRY*</label>
+                    <select name="billing_country" id="billing_country">
+                        <option value="">Choose country</option>
+                        <option value="96">Italy</option>
+                    </select>
+                </div>
+
+                <div class="col-12 col-sm-6 mb-5">
+                    <div class="ww-input-container">
+                        <input type="text" id="billing_county" name="billing_county" placeholder="Enter State" required>
+                        <label for="billing_county">STATE*</label>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-3 mb-5">
+                    <div class="ww-input-container">
+                        <input type="text" id="billing_city" name="billing_city" placeholder="Enter City" required>
+                        <label for="billing_city">CITY*</label>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-3 mb-5">
+                    <div class="ww-input-container">
+                        <input type="text" id="billing_postcode" name="billing_postcode" placeholder="Postal Code" required>
+                        <label for="billing_postcode">POSTAL CODE*</label>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 mb-5">
+                    <div class="ww-input-container">
+                        <input type="text" id="billing_address" name="billing_address" placeholder="Enter street and number" required>
+                        <label for="billing_address">STREET AND NUMBER*</label>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 mb-5">
+                    <div class="ww-input-container">
+                        <input type="email" id="shipping_email" name="shipping_email" placeholder="Enter email for invoicing" required>
+                        <label for="shipping_email">EMAIL*</label>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 mb-5">
+                    <div class="ww-input-container">
+                        <input type="text" id="shipping_telephone" name="shipping_telephone" placeholder="+39 3312598741" required>
+                        <label for="shipping_telephone">PHONE NUMBER*</label>
+                    </div>
+                </div>
+
+                <div class="col-12 mb-3">
+                    <div class="ww-input-container">
+                        <textarea name="order_notes" id="order_notes" cols="30" rows="4" placeholder="Please enter any wishes or suggestions regarding the order"></textarea>
+                        <label for="order_notes">ORDER NOTES</label>
+                    </div>
+                </div>
+
+                <div class="col-12 mb-5">
+                    <div class="ww-input-container bb-gold pb-1 position-relative input-file-container">
+                        <label for="customer_document_id"><small class="text-light-grey">Please upload copy of your ID</small></label>
+                        <input type="file" name="customer_document_id" id="customer_document_id">
+                        <div class="file-button-text">Upload your ID</div>
+                    </div>
+                </div>
+
+                <div class="col-12 mb-5">
+                    <div class="d-flex align-items-center">
+                        <input type="checkbox" name="ship_to_different_address" id="ship_to_different_address" class="me-3" >
+                        <label for="ship_to_different_address">SHIP TO A DIFFERENT ADDRESS</label>
+                    </div>
+
+                    <div class="different-address-container mt-5">
+                        <div class="row">
+                            <div class="col-12 col-sm-6 mb-5">
+                                <div class="ww-input-container">
+                                    <input type="text" class="shipping-input required"
+                                           id="shipping_name"
+                                           name="shipping_name"
+                                           placeholder="Your name">
+                                    <label for="shipping_name">YOUR FIRST NAME*</label>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-6 mb-5">
+                                <div class="ww-input-container">
+                                    <input type="text" class="shipping-input required"
+                                           id="shipping_surname"
+                                           name="shipping_surname"
+                                           placeholder="Your surname">
+                                    <label for="shipping_surname">YOUR LAST NAME*</label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="ww-input-container mb-5">
+                                    <input type="text" class="shipping-input"
+                                           id="shipping_company_name"
+                                           name="shipping_company_name"
+                                           placeholder="Name of the company">
+                                    <label for="shipping_company_name">COMPANY NAME</label>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-6 mb-5">
+                                <label for="shipping_country">COUNTRY*</label>
+                                <select class="shipping-input" name="shipping_country required" id="shipping_country">
+                                    <option value="">Choose country</option>
+                                    <option value="96">Italy</option>
+                                </select>
+                            </div>
+
+                            <div class="col-12 col-sm-6 mb-5">
+                                <div class="ww-input-container">
+                                    <input type="text" class="shipping-input required"
+                                           id="shipping_county"
+                                           name="shipping_county"
+                                           placeholder="Enter State">
+                                    <label for="shipping_county">STATE*</label>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-3 mb-5">
+                                <div class="ww-input-container">
+                                    <input type="text" class="shipping-input required"
+                                           id="shipping_city"
+                                           name="shipping_city"
+                                           placeholder="Enter City">
+                                    <label for="shipping_city">CITY*</label>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-3 mb-5">
+                                <div class="ww-input-container">
+                                    <input type="text" class="shipping-input required"
+                                           id="shipping_postcode"
+                                           name="shipping_postcode"
+                                           placeholder="Postal Code">
+                                    <label for="shipping_postcode">POSTAL CODE*</label>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-6 mb-5">
+                                <div class="ww-input-container">
+                                    <input type="text" class="shipping-input required"
+                                           id="shipping_address"
+                                           name="shipping_address"
+                                           placeholder="Enter street and number">
+                                    <label for="shipping_address">STREET AND NUMBER*</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-7 mb-5 ww-input-column">
+                    <p class="ww-title">Deposit/Exchange</p>
+                    <p class="ww-subtitle mb-0">If you have agreed with us an exchange or an advance,
+                        select and enter the amount:</p>
+                </div>
+
+                <div class="col-12 col-sm-5 mb-5 d-flex align-items-end">
+                    <div class="input-number-currency-cont w-100">
+                        <input type="number" name="deposit_value" id="deposit_value" class="money" placeholder="0" min="1">
+                        <span class="currency-symbol">€</span>
+                    </div>
+                </div>
+
+                <div class="col-12 mb-5 ww-input-column">
+                    <p class="ww-title">Payment method</p>
+                    <div class="d-flex">
+                        <div class="d-flex align-items-center me-5">
+                            <input type="radio" name="payment_method" id="wire_transfer" class="me-3" >
+                            <label for="wire_transfer">Wire Transfer</label>
+                        </div>
+
+                        <div class="d-flex align-items-center ms-4">
+                            <input type="radio" name="payment_method" id="credit_card" class="me-3" >
+                            <label for="credit_card">Credit / Debit Card</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-7 mb-5 ww-input-column align-self-center">
+                    <div class="d-flex align-items-center">
+                        <input type="checkbox" name="privacy_consent" id="privacy_consent" class="me-3" required>
+                        <label for="privacy_consent">I have read and accept the website terms and conditions *</label>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-5 mb-0 mb-sm-5 d-flex align-items-end">
+                    <button type="submit" id="form_submit" class="ww-btn btn-gold btn-lg" disabled>
+                        PLACE ORDER
+                        <svg width="30" x="0px" y="0px" class="fill-white ms-2"
+                             viewBox="0 0 40 10" style="enable-background:new 0 0 40 10;" xml:space="preserve">
+                            <path class="st0" d="M39.4,5.4c0.2-0.2,0.2-0.6,0-0.8l-3.7-3.7c-0.2-0.2-0.6-0.2-0.8,0c-0.2,0.2-0.2,0.6,0,0.8L38.1,5l-3.3,3.3
+                            c-0.2,0.2-0.2,0.6,0,0.8c0.2,0.2,0.6,0.2,0.8,0L39.4,5.4z M39,4.4H0.5v1.2H39V4.4z"/>
+                        </svg>
+                    </button>
+                </div>
+
+            </div>
+        </section>
+        </form>
+    </div>
+</main>
+
+<footer class="bg-beige">
+    <div class="row">
+        <div class="col-12 col-lg-2 footer-list order-3 order-lg-0 brands">
+            <p class="list-title d-none d-lg-block">Brands</p>
+            <a class="d-block d-lg-none" href="category.html">
+                <p class="list-title mb-0 pb-0 text-center text-md-start">
+                    Brands
+                    <img class="ms-3" src="images/icons/arrow-gold-long.svg" alt="arrow">
+                </p>
+            </a>
+            <ul class="d-none d-lg-block">
+                <li>
+                    <a href="category.html">
+                        Audemars Piguet
+                    </a>
+                </li>
+                <li>
+                    <a href="category.html">
+                        Patek Philippe
+                    </a>
+                </li>
+                <li>
+                    <a href="category.html">
+                        Rolex
+                    </a>
+                </li>
+                <li>
+                    <a href="category.html">
+                        Bulgari
+                    </a>
+                </li>
+                <li>
+                    <a href="category.html">
+                        Cartier
+                    </a>
+                </li>
+                <li>
+                    <a href="category.html">
+                        All Brands
+                        <img src="images/icons/arrow-right-black.svg" alt="arrow">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-12 col-lg-2 footer-list order-4 order-lg-1 about-us-col">
+            <p class="list-title d-none d-lg-block">About Us</p>
+            <ul>
+                <li class="mobile-title text-center text-md-start">
+                    <a href="about.html">
+                        Who We Are
+                    </a>
+                </li>
+                <li class="mobile-title text-center text-md-start">
+                    <a href="contact.html">
+                        Contacts
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-12 d-block footer-list order-2 d-lg-none">
+            <div class="mobile-social-icon footer-social-cont">
+                <a target="_blank" href="https://www.facebook.com/wantedwatchsrl">
+                    <img src="images/icons/fb-icon.svg" alt="facebook">
+                </a>
+                <a target="_blank" href="https://www.instagram.com/wantedwatch/">
+                    <img src="images/icons/ig-icon.svg" alt="instagram">
+                </a>
+                <a target="_blank" href="https://www.youtube.com/">
+                    <img src="images/icons/yt-icon.svg" alt="youtube">
+                </a>
+                <a href="tel:+39392007080">
+                    <img src="images/icons/wp-icon.svg" alt="whatsapp">
+                </a>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 footer-list order-5 order-lg-2 social-col">
+            <p class="list-title d-none d-lg-block">Follow Us:</p>
+            <div class="desktop-social-icon footer-social-cont d-none d-lg-block">
+                <a target="_blank" href="https://www.facebook.com/wantedwatchsrl">
+                    <img src="images/icons/fb-icon.svg" alt="facebook">
+                </a>
+                <a target="_blank" href="https://www.instagram.com/wantedwatch/">
+                    <img src="images/icons/ig-icon.svg" alt="instagram">
+                </a>
+                <a target="_blank" href="https://www.youtube.com/">
+                    <img src="images/icons/yt-icon.svg" alt="youtube">
+                </a>
+                <a href="tel:+39392007080">
+                    <img src="images/icons/wp-icon.svg" alt="whatsapp">
+                </a>
+            </div>
+            <div class="row">
+                <div class="col-12 follow-us-col order-2 order-lg-0">
+                    <img class="me-2" src="images/icons/clock-icon.svg" alt="clock" width="14">
+                    <div class="text-container">
+                        <p class="text">Open from Monday to Friday</p>
+                        <p class="text">10:00 – 13:30 / 14:30 – 19:00</p>
+                    </div>
+                </div>
+                <div class="col-12 follow-us-col single order-0 order-lg-1">
+                    <img class="me-2" src="images/icons/mail-icon.svg" alt="email" width="14">
+                    <a href="mailto:info@wantedwatch.it">info@wantedwatch.it</a>
+                </div>
+                <div class="col-12 follow-us-col order-3 order-lg-2">
+                    <img class="me-2" src="images/icons/location-dot-gold.svg" alt="location" width="14">
+                    <div class="text-container">
+                        <p class="text-xs">Via Gerolamo Frescobaldi 5, 00198 Rome</p>
+                        <p class="text-xs">Boutique located inside the Grand Hotel Parco Dei Principi</p>
+                    </div>
+                </div>
+                <div class="col-12 follow-us-col single order-1 order-lg-3">
+                    <img class="me-2" src="images/icons/phone-icon.svg" alt="phone" width="14">
+                    <a href="tel:+39 06 85442566">(+39) 06 85442566</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 mb-5 mb-lg-0 newsletter-col order-0 order-lg-3">
+            <form action="">
+                <p class="newsletter-title">Subscribe to keep up with Wanted Watch latest arrivals.</p>
+                <div class="news-input-container">
+                    <input id="newsletter_email" name="newsletter_email" type="email" placeholder="Inserisci la tua email">
+                    <button class="newsletter-btn">subscribe</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="col-12 footer-logo-container order-1 order-lg-4">
+            <a href="index.html">
+                <img class="me-2 logo-small" src="images/logo-small.svg" alt="wantedwatch logo">
+                <img class="logo-big" src="images/logo-name-big.svg" alt="wantedwatch logo">
+            </a>
+        </div>
+
+        <div class="col-12 policy-container order-5 order-lg-5">
+            <div class="start">
+                <p class="copyright">© 2023 Wanted Watch</p>
+            </div>
+            <div class="end">
+                <a href="#">Terms and Conditions</a>
+                <a href="#">Cookie Policy</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/jquery351.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/plugins/swiper/js/swiper-bundle.min.js"></script>
+<script src="js/plugins/aos/aos.js"></script>
+<script src="js/main.js"></script>
+<script src="js/checkout.js"></script>
+
+</body>
+</html>
