@@ -126,6 +126,11 @@ $(document).ready(function () {
                     slidesPerView: 4.6,
                     spaceBetween: 27,
                 },
+                // when window width is >= 992px
+                1440: {
+                    slidesPerView: 5,
+                    spaceBetween: 27,
+                },
             },
         });
     }
@@ -148,6 +153,12 @@ $(document).ready(function () {
             breakpoints: {
                 // when window width is >= 992px
                 991: {
+                    slidesPerView: 1.2,
+                    spaceBetween: 24,
+                },
+                // when window width is >= 1440px
+                1440: {
+                    slidesPerView: 1.6,
                     spaceBetween: 24,
                 },
             },
