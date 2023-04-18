@@ -1,0 +1,8 @@
+<component name="ProjectCodeStyleConfiguration">
+  <code_scheme name="Project" version="173">
+    <PHPCodeStyleSettings>
+      <option name="INDENT_CODE_IN_PHP_TAGS" value="true" />
+      <option name="BLANK_LINES_BEFORE_RETURN_STATEMENT" value="1" />
+    </PHPCodeStyleSettings>
+  </code_scheme>
+</component>

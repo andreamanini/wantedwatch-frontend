@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="383bcaf2-e794-4ad8-8985-c2249c99b528" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/category-image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/category-image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/category-image2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/category-image2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/category-image3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/category-image3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/category-image4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/category-image4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/latest-arrivals.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/latest-arrivals2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/latest-arrivals3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/latest-arrivals4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product-detail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/product-detail.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product-detail2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/product-detail2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product-detail3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/product-detail3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product-detail4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/product-detail4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product-detail5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/product-detail5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/section-full-image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/section-full-image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-detail.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectId" id="2Oamx5H7wI198b3QUEyRwj4wtHX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="383bcaf2-e794-4ad8-8985-c2249c99b528" name="Default Changelist" comment="" />
+      <created>1681807309509</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681807309509</updated>
+      <workItem from="1681807310586" duration="8050000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="573" y="282" width="1430" height="566" key="find.popup" timestamp="1681822222506">
+      <screen x="0" y="23" width="2560" height="1366" />
+    </state>
+    <state x="573" y="282" width="1430" height="566" key="find.popup/0.23.2560.1366@0.23.2560.1366" timestamp="1681822222506" />
+  </component>
+</project>
