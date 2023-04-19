@@ -25,6 +25,27 @@
             </div>
             <div class="nav-menu-container">
                 <div class="item-list">
+                    <div class="searchbar-container mobile">
+                        <form action="" class="position-relative">
+                            <input type="text" name="search_bar" class="search_bar" placeholder="Search...">
+
+                            <button type="submit" class="search_bar_btn">
+                                <img src="images/icons/search-icon.svg" alt="searchbar" width="20">
+                            </button>
+                        </form>
+                    </div>
+                    <div class="language-selector mobile">
+                        <div class="dropdown">
+                            <div class="dropdown-toggle language-selector lang-dd" data-bs-toggle="dropdown">
+                                IT
+                            </div>
+                            <ul class="dropdown-menu lang-dd">
+                                <li><a class="dropdown-item" href="#">Italian</a></li>
+                                <li><a class="dropdown-item" href="#">English</a></li>
+                                <li><a class="dropdown-item" href="#">Francais</a></li>
+                            </ul>
+                        </div>
+                    </div>
                     <a href="index.html" class="menu-item">Home</a>
                     <a href="about.html" class="menu-item">Who we are</a>
                     <span class="menu-item menu-item-toggle">
@@ -55,11 +76,11 @@
                 </div>
 
                 <div class="info-container">
-                    <div class="searchbar-container">
+                    <div class="searchbar-container desktop">
                         <form action="" class="position-relative">
-                            <input type="text" name="search_bar" id="search_bar" placeholder="Search...">
+                            <input type="text" name="search_bar" class="search_bar" placeholder="Search...">
 
-                            <button type="submit" id="search_bar_btn">
+                            <button type="submit" class="search_bar_btn">
                                 <img src="images/icons/search-icon.svg" alt="searchbar" width="20">
                             </button>
                         </form>
@@ -74,7 +95,7 @@
                             CART
                         </a>
                     </div>
-                    <div class="language-selector">
+                    <div class="language-selector desktop">
                         <div class="dropdown">
                             <div class="dropdown-toggle language-selector lang-dd" data-bs-toggle="dropdown">
                                 IT
@@ -146,46 +167,56 @@
                 </div>
             </div>
 
-            <div class="title-container">
+            <div class="title-container" data-aos="zoom-in-up" data-aos-duration="600" data-aos-offset="100">
                 <p class="section-title">Latest Arrivals</p>
             </div>
 
             <div class="swiper latest-arrivals-swiper ww--inner-mw">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <p class="title">Rolex Datelust</p>
-                        <p class="subtitle">Ref. 126334</p>
-                        <div class="img-container">
-                            <img src="images/category-image.jpg" alt="watch-name" class="img-fluid">
-                        </div>
+                        <a href="product-detail.html">
+                            <p class="title">Rolex Datelust</p>
+                            <p class="subtitle">Ref. 126334</p>
+                            <div class="img-container">
+                                <img src="images/category-image.jpg" alt="watch-name" class="img-fluid">
+                            </div>
+                        </a>
                     </div>
                     <div class="swiper-slide">
-                        <p class="title">Rolex Datelust</p>
-                        <p class="subtitle">Ref. 126334</p>
-                        <div class="img-container">
-                            <img src="images/category-image2.jpg" alt="watch-name" class="img-fluid">
-                        </div>
+                        <a href="product-detail.html">
+                            <p class="title">Rolex Datelust</p>
+                            <p class="subtitle">Ref. 126334</p>
+                            <div class="img-container">
+                                <img src="images/category-image2.jpg" alt="watch-name" class="img-fluid">
+                            </div>
+                        </a>
                     </div>
                     <div class="swiper-slide">
-                        <p class="title">Rolex Datelust</p>
-                        <p class="subtitle">Ref. 126334</p>
-                        <div class="img-container">
-                            <img src="images/category-image3.jpg" alt="watch-name" class="img-fluid">
-                        </div>
+                        <a href="product-detail.html">
+                            <p class="title">Rolex Datelust</p>
+                            <p class="subtitle">Ref. 126334</p>
+                            <div class="img-container">
+                                <img src="images/category-image3.jpg" alt="watch-name" class="img-fluid">
+                            </div>
+                        </a>
                     </div>
                     <div class="swiper-slide">
-                        <p class="title">Rolex Datelust</p>
-                        <p class="subtitle">Ref. 126334</p>
-                        <div class="img-container">
-                            <img src="images/category-image4.jpg" alt="watch-name" class="img-fluid">
-                        </div>
+                        <a href="product-detail.html">
+                            <p class="title">Rolex Datelust</p>
+                            <p class="subtitle">Ref. 126334</p>
+                            <div class="img-container">
+                                <img src="images/category-image4.jpg" alt="watch-name" class="img-fluid">
+                            </div>
+                        </a>
                     </div>
                     <div class="swiper-slide">
-                        <p class="title">Rolex Datelust</p>
-                        <p class="subtitle">Ref. 126334</p>
-                        <div class="img-container">
-                            <img src="images/category-image2.jpg" alt="watch-name" class="img-fluid">
-                        </div>
+                        <a href="product-detail.html">
+                            <p class="title">Rolex Datelust</p>
+                            <p class="subtitle">Ref. 126334</p>
+                            <div class="img-container">
+                                <img src="images/category-image2.jpg" alt="watch-name" class="img-fluid">
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -200,38 +231,38 @@
         </section>
 
         <section class="featured-brands">
-            <p class="title">Featured Brands</p>
+            <p class="title" data-aos="fade-down">Featured Brands</p>
             <div class="brands-container">
-                <a class="brand-item" href="category.html">
+                <a class="brand-item" href="category.html" data-aos="fade-right" data-aos-delay="50">
                     AUDEMARS PIGUET
                     <img src="images/category-image.jpg" class="img-fluid" alt="AUDEMARS PIGUET">
                 </a>
-                <a class="brand-item" href="category.html">
+                <a class="brand-item" href="category.html" data-aos="fade-right" data-aos-delay="100">
                     Patek Philippe
                     <img src="images/category-image2.jpg" class="img-fluid" alt="Patek Philippe">
                 </a>
-                <a class="brand-item" href="category.html">
+                <a class="brand-item" href="category.html" data-aos="fade-right" data-aos-delay="150">
                     Rolex
                     <img src="images/category-image3.jpg" class="img-fluid" alt="Rolex">
                 </a>
             </div>
             <div class="brands-container">
-                <a class="brand-item" href="category.html">
+                <a class="brand-item" href="category.html" data-aos="fade-right" data-aos-delay="50">
                     Bulgari
                     <img src="images/category-image4.jpg" class="img-fluid" alt="Bulgari">
                 </a>
-                <a class="brand-item" href="category.html">
+                <a class="brand-item" href="category.html" data-aos="fade-right" data-aos-delay="100">
                     cartier
                     <img src="images/category-image.jpg" class="img-fluid" alt="CARTIER">
                 </a>
-                <a class="brand-item more" href="category.html">
+                <a class="brand-item more" href="category.html" data-aos="fade-right" data-aos-delay="150">
                     & more
                     <img class="mb-2 ms-2" src="images/icons/arrow-right-gold-small.svg" alt="more" width="13">
                 </a>
             </div>
         </section>
 
-        <section class="bg-full-image">
+        <section class="bg-full-image" data-aos="fade-up" data-aos-offset="100" data-aos-delay="200">
             <div class="image-container">
                 <picture>
                     <source class="img-fluid" media="(max-width: 499px)" srcset="images/section-full-image-mobile-small.jpg">
@@ -252,7 +283,7 @@
                     globale da parte del nostro Founder & CEO Federico Bagnetti assicurano una consulenza professionale
                     per i più appassionati ed esperti e un’ introduzione per chi vuole avvicinarsi a questo affascinante mondo.
                 </p>
-                <a class="section-cta" href="#">
+                <a class="section-cta" href="about.html">
                     EXPLORE GALLERY
                 </a>
             </div>
@@ -260,7 +291,7 @@
         </section>
 
         <section class="gallery">
-            <div class="start">
+            <div class="start" data-aos="fade-down" data-aos-delay="200">
                 <p class="title">GALLERY</p>
                 <p class="subtitle">Visit our gallery</p>
                 <div class="custom-hr"></div>
@@ -274,7 +305,7 @@
                     </div>
                 </div>
             </div>
-            <div class="end">
+            <div class="end" data-aos="fade-up" data-aos-delay="300">
                 <img class="img-fluid" src="images/gallery-img.jpg" alt="gallery">
             </div>
         </section>
