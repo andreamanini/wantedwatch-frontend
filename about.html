@@ -25,6 +25,27 @@
             </div>
             <div class="nav-menu-container">
                 <div class="item-list">
+                    <div class="searchbar-container mobile">
+                        <form action="" class="position-relative">
+                            <input type="text" name="search_bar" class="search_bar" placeholder="Search...">
+
+                            <button type="submit" class="search_bar_btn">
+                                <img src="images/icons/search-icon.svg" alt="searchbar" width="20">
+                            </button>
+                        </form>
+                    </div>
+                    <div class="language-selector mobile">
+                        <div class="dropdown">
+                            <div class="dropdown-toggle language-selector lang-dd" data-bs-toggle="dropdown">
+                                IT
+                            </div>
+                            <ul class="dropdown-menu lang-dd">
+                                <li><a class="dropdown-item" href="#">Italian</a></li>
+                                <li><a class="dropdown-item" href="#">English</a></li>
+                                <li><a class="dropdown-item" href="#">Francais</a></li>
+                            </ul>
+                        </div>
+                    </div>
                     <a href="index.html" class="menu-item">Home</a>
                     <a href="about.html" class="menu-item">Who we are</a>
                     <span class="menu-item menu-item-toggle">
@@ -55,11 +76,11 @@
                 </div>
 
                 <div class="info-container">
-                    <div class="searchbar-container">
+                    <div class="searchbar-container desktop">
                         <form action="" class="position-relative">
-                            <input type="text" name="search_bar" id="search_bar" placeholder="Search...">
+                            <input type="text" name="search_bar" class="search_bar" placeholder="Search...">
 
-                            <button type="submit" id="search_bar_btn">
+                            <button type="submit" class="search_bar_btn">
                                 <img src="images/icons/search-icon.svg" alt="searchbar" width="20">
                             </button>
                         </form>
@@ -74,7 +95,7 @@
                             CART
                         </a>
                     </div>
-                    <div class="language-selector">
+                    <div class="language-selector desktop">
                         <div class="dropdown">
                             <div class="dropdown-toggle language-selector lang-dd" data-bs-toggle="dropdown">
                                 IT
@@ -110,9 +131,8 @@
         </section>
 
         <section class="history">
-            <h4 class="title">HISTORY</h4>
-
-            <p class="history-text">Wanted Watch nasce nel cuore di Roma, con la sua boutique all’interno del prestigioso
+            <h4 class="title" data-aos="fade-right">HISTORY</h4>
+            <p class="history-text" data-aos="zoom-in-up">Wanted Watch nasce nel cuore di Roma, con la sua boutique all’interno del prestigioso
                 Grand Hotel Parco Dei Principi, accompagna i propri clienti verso un’esperienza di compravendita di orologi
                 di lusso unica nel suo genere.
             </p>
@@ -154,7 +174,7 @@
         </section>
 
         <section class="text-image-section">
-            <div class="start left-half-text">
+            <div class="start left-half-text" data-aos="fade-down">
                 <p class="title">OUR GOALS</p>
                 <p class="subtitle">Headline</p>
                 <div class="custom-hr"></div>
@@ -165,17 +185,17 @@
                     </p>
                 </div>
             </div>
-            <div class="end">
+            <div class="end" data-aos="fade-up">
                 <img class="img-fluid" src="images/gallery-img.jpg" alt="gallery">
             </div>
         </section>
 
         <section class="text-image-section dark-bg offset-image mobile-col-reverse">
-            <div class="start">
+            <div class="start" data-aos="fade-up">
                 <img class="img-fluid" src="images/gallery-img.jpg" alt="gallery">
             </div>
 
-            <div class="end right-half-text">
+            <div class="end right-half-text" data-aos="fade-down">
                 <p class="subtitle">HEADLINE</p>
                 <div class="custom-hr"></div>
                 <div class="text-container">
@@ -187,7 +207,7 @@
             </div>
         </section>
 
-        <section class="newsletter d-none d-lg-block">
+        <section class="newsletter d-none d-lg-block" data-aos="fade-right">
             <form action="">
                 <h4 class="title">NEWSLETTER</h4>
                 <p class="subtitle">

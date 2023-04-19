@@ -25,6 +25,27 @@
             </div>
             <div class="nav-menu-container">
                 <div class="item-list">
+                    <div class="searchbar-container mobile">
+                        <form action="" class="position-relative">
+                            <input type="text" name="search_bar" class="search_bar" placeholder="Search...">
+
+                            <button type="submit" class="search_bar_btn">
+                                <img src="images/icons/search-icon.svg" alt="searchbar" width="20">
+                            </button>
+                        </form>
+                    </div>
+                    <div class="language-selector mobile">
+                        <div class="dropdown">
+                            <div class="dropdown-toggle language-selector lang-dd" data-bs-toggle="dropdown">
+                                IT
+                            </div>
+                            <ul class="dropdown-menu lang-dd">
+                                <li><a class="dropdown-item" href="#">Italian</a></li>
+                                <li><a class="dropdown-item" href="#">English</a></li>
+                                <li><a class="dropdown-item" href="#">Francais</a></li>
+                            </ul>
+                        </div>
+                    </div>
                     <a href="index.html" class="menu-item">Home</a>
                     <a href="about.html" class="menu-item">Who we are</a>
                     <span class="menu-item menu-item-toggle">
@@ -55,11 +76,11 @@
                 </div>
 
                 <div class="info-container">
-                    <div class="searchbar-container">
+                    <div class="searchbar-container desktop">
                         <form action="" class="position-relative">
-                            <input type="text" name="search_bar" id="search_bar" placeholder="Search...">
+                            <input type="text" name="search_bar" class="search_bar" placeholder="Search...">
 
-                            <button type="submit" id="search_bar_btn">
+                            <button type="submit" class="search_bar_btn">
                                 <img src="images/icons/search-icon.svg" alt="searchbar" width="20">
                             </button>
                         </form>
@@ -74,7 +95,7 @@
                             CART
                         </a>
                     </div>
-                    <div class="language-selector">
+                    <div class="language-selector desktop">
                         <div class="dropdown">
                             <div class="dropdown-toggle language-selector lang-dd" data-bs-toggle="dropdown">
                                 IT
@@ -177,12 +198,12 @@
                     </div>
                 </div>
                 <div class="end">
-                    <div class="watch-info">
+                    <div class="watch-info" data-aos="fade-right" data-aos-easing="ease-in-sine">
                         <p class="brand-name">Rolex</p>
                         <h2 class="watch-name">Rolex Datelust</h2>
                         <p class="watch-ref">Ref. 126334</p>
                     </div>
-                    <div class="watch-description">
+                    <div class="watch-description" data-aos="fade-right" data-aos-easing="ease-in-sine">
                         <p class="description-title">Description</p>
                         <p class="description-text">
                             Calendario completo, Oro bianco, Automatico, Diametro 40,5 mm, Anno 2018, Scatola e
@@ -200,37 +221,37 @@
                         <p class="title">characteristics</p>
                         <div class="char-table">
                             <div class="first">
-                                <div class="table-item">
+                                <div class="table-item" data-aos="fade-down" data-aos-offset="0">
                                     <p>Year</p>
                                     <p>2020</p>
                                 </div>
-                                <div class="table-item">
+                                <div class="table-item" data-aos="fade-down" data-aos-offset="0">
                                     <p>Bracelet</p>
                                     <p>WHITE GOLD</p>
                                 </div>
-                                <div class="table-item">
+                                <div class="table-item" data-aos="fade-down" data-aos-offset="0">
                                     <p>Diameter</p>
                                     <p>36 MM</p>
                                 </div>
-                                <div class="table-item">
+                                <div class="table-item" data-aos="fade-down" data-aos-offset="0">
                                     <p>Clock</p>
                                     <p>PAVe</p>
                                 </div>
                             </div>
                             <div class="second">
-                                <div class="table-item">
+                                <div class="table-item" data-aos="fade-up" data-aos-offset="0">
                                     <p>Move</p>
                                     <p>AUTOMATIC</p>
                                 </div>
-                                <div class="table-item">
+                                <div class="table-item" data-aos="fade-up" data-aos-offset="0">
                                     <p>Condition</p>
                                     <p class="screw-head">NEW</p>
                                 </div>
-                                <div class="table-item">
+                                <div class="table-item" data-aos="fade-up" data-aos-offset="0">
                                     <p>Box</p>
                                     <p class="yes">YES</p>
                                 </div>
-                                <div class="table-item">
+                                <div class="table-item" data-aos="fade-up" data-aos-offset="0">
                                     <p>Warranity</p>
                                     <p class="no">NO</p>
                                 </div>
@@ -247,7 +268,7 @@
             </h3>
 
             <div class="row">
-                <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-item">
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-item" data-aos-offset="50" data-aos="fade-up" data-aos-delay="50" data-aos-easing="ease-in-sine">
                     <div class="info">
                         <span class="watch-name">ROLEX DATEJUST</span>
                         <span class="ref">Ref. 126334</span>
@@ -259,7 +280,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-item">
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-item" data-aos-offset="50" data-aos="fade-up" data-aos-delay="100" data-aos-easing="ease-in-sine">
                     <div class="info">
                         <span class="watch-name">AUDEMARS PIGUET ROYAL OAK</span>
                         <span class="ref">Ref. 129934</span>
@@ -271,7 +292,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-item">
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-item" data-aos-offset="50" data-aos="fade-up" data-aos-delay="150" data-aos-easing="ease-in-sine">
                     <div class="info">
                         <span class="watch-name">ROLEX DATEJUST</span>
                         <span class="ref">Ref. 126334</span>
@@ -283,7 +304,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-item">
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-item" data-aos-offset="50" data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-in-sine">
                     <div class="info">
                         <span class="watch-name">ROLEX DATEJUST</span>
                         <span class="ref">Ref. 126334</span>

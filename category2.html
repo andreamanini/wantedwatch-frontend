@@ -25,6 +25,27 @@
             </div>
             <div class="nav-menu-container">
                 <div class="item-list">
+                    <div class="searchbar-container mobile">
+                        <form action="" class="position-relative">
+                            <input type="text" name="search_bar" class="search_bar" placeholder="Search...">
+
+                            <button type="submit" class="search_bar_btn">
+                                <img src="images/icons/search-icon.svg" alt="searchbar" width="20">
+                            </button>
+                        </form>
+                    </div>
+                    <div class="language-selector mobile">
+                        <div class="dropdown">
+                            <div class="dropdown-toggle language-selector lang-dd" data-bs-toggle="dropdown">
+                                IT
+                            </div>
+                            <ul class="dropdown-menu lang-dd">
+                                <li><a class="dropdown-item" href="#">Italian</a></li>
+                                <li><a class="dropdown-item" href="#">English</a></li>
+                                <li><a class="dropdown-item" href="#">Francais</a></li>
+                            </ul>
+                        </div>
+                    </div>
                     <a href="index.html" class="menu-item">Home</a>
                     <a href="about.html" class="menu-item">Who we are</a>
                     <span class="menu-item menu-item-toggle">
@@ -55,11 +76,11 @@
                 </div>
 
                 <div class="info-container">
-                    <div class="searchbar-container">
+                    <div class="searchbar-container desktop">
                         <form action="" class="position-relative">
-                            <input type="text" name="search_bar" id="search_bar" placeholder="Search...">
+                            <input type="text" name="search_bar" class="search_bar" placeholder="Search...">
 
-                            <button type="submit" id="search_bar_btn">
+                            <button type="submit" class="search_bar_btn">
                                 <img src="images/icons/search-icon.svg" alt="searchbar" width="20">
                             </button>
                         </form>
@@ -74,7 +95,7 @@
                             CART
                         </a>
                     </div>
-                    <div class="language-selector">
+                    <div class="language-selector desktop">
                         <div class="dropdown">
                             <div class="dropdown-toggle language-selector lang-dd" data-bs-toggle="dropdown">
                                 IT
@@ -155,235 +176,417 @@
             </div>
 
             <div class="row">
-                <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-item">
-                    <a href="#">
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-item" data-aos="fade-up" data-aos-delay="100">
+                    <a href="product-detail.html">
                         <div class="image-container">
                             <img src="images/category-image.jpg" class="img-fluid" alt="category-image">
                         </div>
-                    </a>
-                    <div class="info">
-                        <span class="brand">rolex</span>
-                        <span class="ref">Ref. 126334</span>
-                    </div>
-                    <p class="title">
-                        Rolex Datelust
-                    </p>
-                    <div class="description">
-                        <span class="desc-title">Description</span>
-                        <p class="desc-text">
-                            Calendario completo, Oro bianco, Automatico, Diametro 40,5 mm, Anno 2018, Scatola e garanzia
-                            Patek Philippe, Garanzia WantedWatch 12 mesi
+                        <div class="info">
+                            <span class="brand">rolex</span>
+                            <span class="ref">Ref. 126334</span>
+                        </div>
+                        <p class="title">
+                            Rolex Datelust
                         </p>
-                    </div>
+                        <div class="description">
+                            <span class="desc-title">Description</span>
+                            <p class="desc-text">
+                                Calendario completo, Oro bianco, Automatico, Diametro 40,5 mm, Anno 2018, Scatola e
+                                garanzia
+                                Patek Philippe, Garanzia WantedWatch 12 mesi
+                            </p>
+                        </div>
+                    </a>
                     <div class="cta">
                         <div class="price">€52 000</div>
-                        <a class="add-to-cart" href="#">
-                            <span class="dot"></span>
+                        <a class="add-to-cart" href="checkout.html">
                             <span class="mobile-text">add to cart</span>
-                            <img src="images/icons/arrow-right-gold-small.svg" alt="arrow" width="19">
+                            <svg width="20" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                 viewBox="0 0 11.7 4.5">
+                                <path class="st0" d="M11.3,2.5c0.1-0.1,0.1-0.3,0-0.4L9.5,0.3c-0.1-0.1-0.3-0.1-0.4,0C9,0.4,9,0.5,9.1,0.7l1.6,1.6L9.1,3.9
+                            C9,4,9,4.2,9.1,4.3c0.1,0.1,0.3,0.1,0.4,0L11.3,2.5z M11.1,2H0.2v0.6h10.9V2z"/>
+                            </svg>
                         </a>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-item">
-                    <a href="#">
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-item" data-aos="fade-up" data-aos-delay="150">
+                    <a href="product-detail.html">
                         <div class="image-container">
                             <img src="images/category-image2.jpg" class="img-fluid" alt="category-image">
                         </div>
-                    </a>
-                    <div class="info">
-                        <span class="brand">rolex</span>
-                        <span class="ref">Ref. 126334</span>
-                    </div>
-                    <p class="title">
-                        ROLEX DAY – DATE
-                    </p>
-                    <div class="description">
-                        <span class="desc-title">Description</span>
-                        <p class="desc-text">
-                            Calendario completo, Oro bianco, Automatico, Diametro 40,5 mm, Anno 2018, Scatola e garanzia
-                            Patek Philippe, Garanzia WantedWatch 12 mesi
+                        <div class="info">
+                            <span class="brand">rolex</span>
+                            <span class="ref">Ref. 126334</span>
+                        </div>
+                        <p class="title">
+                            ROLEX DAY – DATE
                         </p>
-                    </div>
+                        <div class="description">
+                            <span class="desc-title">Description</span>
+                            <p class="desc-text">
+                                Calendario completo, Oro bianco, Automatico, Diametro 40,5 mm, Anno 2018, Scatola e
+                                garanzia
+                                Patek Philippe, Garanzia WantedWatch 12 mesi
+                            </p>
+                        </div>
+                    </a>
                     <div class="cta">
                         <div class="price">€28 500</div>
-                        <a class="add-to-cart" href="#">
-                            <span class="dot"></span>
+                        <a class="add-to-cart" href="checkout.html">
+
                             <span class="mobile-text">add to cart</span>
-                            <img src="images/icons/arrow-right-gold-small.svg" alt="arrow" width="19">
+                            <svg width="20" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                 viewBox="0 0 11.7 4.5">
+                                <path class="st0" d="M11.3,2.5c0.1-0.1,0.1-0.3,0-0.4L9.5,0.3c-0.1-0.1-0.3-0.1-0.4,0C9,0.4,9,0.5,9.1,0.7l1.6,1.6L9.1,3.9
+                            C9,4,9,4.2,9.1,4.3c0.1,0.1,0.3,0.1,0.4,0L11.3,2.5z M11.1,2H0.2v0.6h10.9V2z"/>
+                            </svg>
+
                         </a>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-item">
-                    <a href="#">
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-item" data-aos="fade-up" data-aos-delay="200">
+                    <a href="product-detail.html">
                         <div class="image-container">
                             <img src="images/category-image3.jpg" class="img-fluid" alt="category-image">
                         </div>
-                    </a>
-                    <div class="info">
-                        <span class="brand">rolex</span>
-                        <span class="ref">Ref. 126334</span>
-                    </div>
-                    <p class="title">
-                        PATEK PHILIPPE AQUANAUT
-                    </p>
-                    <div class="description">
-                        <span class="desc-title">Description</span>
-                        <p class="desc-text">
-                            Calendario completo, Oro bianco, Automatico, Diametro 40,5 mm, Anno 2018, Scatola e garanzia
-                            Patek Philippe, Garanzia WantedWatch 12 mesi
+                        <div class="info">
+                            <span class="brand">rolex</span>
+                            <span class="ref">Ref. 126334</span>
+                        </div>
+                        <p class="title">
+                            PATEK PHILIPPE AQUANAUT
                         </p>
-                    </div>
+                        <div class="description">
+                            <span class="desc-title">Description</span>
+                            <p class="desc-text">
+                                Calendario completo, Oro bianco, Automatico, Diametro 40,5 mm, Anno 2018, Scatola e
+                                garanzia
+                                Patek Philippe, Garanzia WantedWatch 12 mesi
+                            </p>
+                        </div>
+                    </a>
                     <div class="cta">
                         <div class="price">€102 000</div>
-                        <a class="add-to-cart" href="#">
-                            <span class="dot"></span>
+                        <a class="add-to-cart" href="checkout.html">
+
                             <span class="mobile-text">add to cart</span>
-                            <img src="images/icons/arrow-right-gold-small.svg" alt="arrow" width="19">
+                            <svg width="20" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                 viewBox="0 0 11.7 4.5">
+                                <path class="st0" d="M11.3,2.5c0.1-0.1,0.1-0.3,0-0.4L9.5,0.3c-0.1-0.1-0.3-0.1-0.4,0C9,0.4,9,0.5,9.1,0.7l1.6,1.6L9.1,3.9
+                            C9,4,9,4.2,9.1,4.3c0.1,0.1,0.3,0.1,0.4,0L11.3,2.5z M11.1,2H0.2v0.6h10.9V2z"/>
+                            </svg>
+
                         </a>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-item">
-                    <a href="#">
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-item" data-aos="fade-up" data-aos-delay="250">
+                    <a href="product-detail.html">
                         <div class="image-container">
-                            <img src="images/category-image4.jpg" class="img-fluid" alt="category-image">
+                            <img src="images/product-detail.jpg" class="img-fluid" alt="category-image">
+                        </div>
+                        <div class="info">
+                            <span class="brand">rolex</span>
+                            <span class="ref">Ref. 126334</span>
+                        </div>
+                        <p class="title">
+                            Rolex Datelust
+                        </p>
+                        <div class="description">
+                            <span class="desc-title">Description</span>
+                            <p class="desc-text">
+                                Calendario completo, Oro bianco, Automatico, Diametro 40,5 mm, Anno 2018, Scatola e
+                                garanzia
+                                Patek Philippe, Garanzia WantedWatch 12 mesi
+                            </p>
                         </div>
                     </a>
-                    <div class="info">
-                        <span class="brand">rolex</span>
-                        <span class="ref">Ref. 126334</span>
-                    </div>
-                    <p class="title">
-                        Rolex Datelust
-                    </p>
-                    <div class="description">
-                        <span class="desc-title">Description</span>
-                        <p class="desc-text">
-                            Calendario completo, Oro bianco, Automatico, Diametro 40,5 mm, Anno 2018, Scatola e garanzia
-                            Patek Philippe, Garanzia WantedWatch 12 mesi
-                        </p>
-                    </div>
                     <div class="cta">
                         <div class="price">€52 000</div>
-                        <a class="add-to-cart" href="#">
-                            <span class="dot"></span>
+                        <a class="add-to-cart" href="checkout.html">
+
                             <span class="mobile-text">add to cart</span>
-                            <img src="images/icons/arrow-right-gold-small.svg" alt="arrow" width="19">
+                            <svg width="20" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                 viewBox="0 0 11.7 4.5">
+                                <path class="st0" d="M11.3,2.5c0.1-0.1,0.1-0.3,0-0.4L9.5,0.3c-0.1-0.1-0.3-0.1-0.4,0C9,0.4,9,0.5,9.1,0.7l1.6,1.6L9.1,3.9
+                            C9,4,9,4.2,9.1,4.3c0.1,0.1,0.3,0.1,0.4,0L11.3,2.5z M11.1,2H0.2v0.6h10.9V2z"/>
+                            </svg>
+
                         </a>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-item">
-                    <a href="#">
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-item" data-aos="fade-up" data-aos-delay="100">
+                    <a href="product-detail.html">
                         <div class="image-container">
                             <img src="images/category-image3.jpg" class="img-fluid" alt="category-image">
                         </div>
-                    </a>
-                    <div class="info">
-                        <span class="brand">rolex</span>
-                        <span class="ref">Ref. 126334</span>
-                    </div>
-                    <p class="title">
-                        Rolex Datelust
-                    </p>
-                    <div class="description">
-                        <span class="desc-title">Description</span>
-                        <p class="desc-text">
-                            Calendario completo, Oro bianco, Automatico, Diametro 40,5 mm, Anno 2018, Scatola e garanzia
-                            Patek Philippe, Garanzia WantedWatch 12 mesi
+                        <div class="info">
+                            <span class="brand">rolex</span>
+                            <span class="ref">Ref. 126334</span>
+                        </div>
+                        <p class="title">
+                            Rolex Datelust
                         </p>
-                    </div>
+                        <div class="description">
+                            <span class="desc-title">Description</span>
+                            <p class="desc-text">
+                                Calendario completo, Oro bianco, Automatico, Diametro 40,5 mm, Anno 2018, Scatola e
+                                garanzia
+                                Patek Philippe, Garanzia WantedWatch 12 mesi
+                            </p>
+                        </div>
+                    </a>
                     <div class="cta">
                         <div class="price">€52 000</div>
-                        <a class="add-to-cart" href="#">
-                            <span class="dot"></span>
+                        <a class="add-to-cart" href="checkout.html">
+
                             <span class="mobile-text">add to cart</span>
-                            <img src="images/icons/arrow-right-gold-small.svg" alt="arrow" width="19">
+                            <svg width="20" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                 viewBox="0 0 11.7 4.5">
+                                <path class="st0" d="M11.3,2.5c0.1-0.1,0.1-0.3,0-0.4L9.5,0.3c-0.1-0.1-0.3-0.1-0.4,0C9,0.4,9,0.5,9.1,0.7l1.6,1.6L9.1,3.9
+                            C9,4,9,4.2,9.1,4.3c0.1,0.1,0.3,0.1,0.4,0L11.3,2.5z M11.1,2H0.2v0.6h10.9V2z"/>
+                            </svg>
+
                         </a>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-item">
-                    <a href="#">
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-item" data-aos="fade-up" data-aos-delay="150">
+                    <a href="product-detail.html">
                         <div class="image-container">
                             <img src="images/category-image4.jpg" class="img-fluid" alt="category-image">
                         </div>
-                    </a>
-                    <div class="info">
-                        <span class="brand">rolex</span>
-                        <span class="ref">Ref. 126334</span>
-                    </div>
-                    <p class="title">
-                        Rolex Datelust
-                    </p>
-                    <div class="description">
-                        <span class="desc-title">Description</span>
-                        <p class="desc-text">
-                            Calendario completo, Oro bianco, Automatico, Diametro 40,5 mm, Anno 2018, Scatola e garanzia
-                            Patek Philippe, Garanzia WantedWatch 12 mesi
+                        <div class="info">
+                            <span class="brand">rolex</span>
+                            <span class="ref">Ref. 126334</span>
+                        </div>
+                        <p class="title">
+                            Rolex Datelust
                         </p>
-                    </div>
+                        <div class="description">
+                            <span class="desc-title">Description</span>
+                            <p class="desc-text">
+                                Calendario completo, Oro bianco, Automatico, Diametro 40,5 mm, Anno 2018, Scatola e
+                                garanzia
+                                Patek Philippe, Garanzia WantedWatch 12 mesi
+                            </p>
+                        </div>
+                    </a>
                     <div class="cta">
                         <div class="price">€52 000</div>
-                        <a class="add-to-cart" href="#">
-                            <span class="dot"></span>
+                        <a class="add-to-cart" href="checkout.html">
+
                             <span class="mobile-text">add to cart</span>
-                            <img src="images/icons/arrow-right-gold-small.svg" alt="arrow" width="19">
+                            <svg width="20" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                 viewBox="0 0 11.7 4.5">
+                                <path class="st0" d="M11.3,2.5c0.1-0.1,0.1-0.3,0-0.4L9.5,0.3c-0.1-0.1-0.3-0.1-0.4,0C9,0.4,9,0.5,9.1,0.7l1.6,1.6L9.1,3.9
+                            C9,4,9,4.2,9.1,4.3c0.1,0.1,0.3,0.1,0.4,0L11.3,2.5z M11.1,2H0.2v0.6h10.9V2z"/>
+                            </svg>
+
                         </a>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-item">
-                    <a href="#">
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-item" data-aos="fade-up" data-aos-delay="200">
+                    <a href="product-detail.html">
                         <div class="image-container">
                             <img src="images/category-image.jpg" class="img-fluid" alt="category-image">
                         </div>
-                    </a>
-                    <div class="info">
-                        <span class="brand">rolex</span>
-                        <span class="ref">Ref. 126334</span>
-                    </div>
-                    <p class="title">
-                        Rolex Datelust
-                    </p>
-                    <div class="description">
-                        <span class="desc-title">Description</span>
-                        <p class="desc-text">
-                            Calendario completo, Oro bianco, Automatico, Diametro 40,5 mm, Anno 2018, Scatola e garanzia
-                            Patek Philippe, Garanzia WantedWatch 12 mesi
+                        <div class="info">
+                            <span class="brand">rolex</span>
+                            <span class="ref">Ref. 126334</span>
+                        </div>
+                        <p class="title">
+                            Rolex Datelust
                         </p>
-                    </div>
+                        <div class="description">
+                            <span class="desc-title">Description</span>
+                            <p class="desc-text">
+                                Calendario completo, Oro bianco, Automatico, Diametro 40,5 mm, Anno 2018, Scatola e
+                                garanzia
+                                Patek Philippe, Garanzia WantedWatch 12 mesi
+                            </p>
+                        </div>
+                    </a>
                     <div class="cta">
                         <div class="price">€52 000</div>
-                        <a class="add-to-cart" href="#">
-                            <span class="dot"></span>
+                        <a class="add-to-cart" href="checkout.html">
+
                             <span class="mobile-text">add to cart</span>
-                            <img src="images/icons/arrow-right-gold-small.svg" alt="arrow" width="19">
+                            <svg width="20" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                 viewBox="0 0 11.7 4.5">
+                                <path class="st0" d="M11.3,2.5c0.1-0.1,0.1-0.3,0-0.4L9.5,0.3c-0.1-0.1-0.3-0.1-0.4,0C9,0.4,9,0.5,9.1,0.7l1.6,1.6L9.1,3.9
+                            C9,4,9,4.2,9.1,4.3c0.1,0.1,0.3,0.1,0.4,0L11.3,2.5z M11.1,2H0.2v0.6h10.9V2z"/>
+                            </svg>
                         </a>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-item">
-                    <a href="#">
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-item" data-aos="fade-up" data-aos-delay="250">
+                    <a href="product-detail.html">
                         <div class="image-container">
                             <img src="images/category-image2.jpg" class="img-fluid" alt="category-image">
                         </div>
-                    </a>
-                    <div class="info">
-                        <span class="brand">rolex</span>
-                        <span class="ref">Ref. 126334</span>
-                    </div>
-                    <p class="title">
-                        AUDEMARS PIGUET ROYAL OAK
-                    </p>
-                    <div class="description">
-                        <span class="desc-title">Description</span>
-                        <p class="desc-text">
-                            Calendario completo, Oro bianco, Automatico, Diametro 40,5 mm, Anno 2018, Scatola e garanzia
-                            Patek Philippe, Garanzia WantedWatch 12 mesi
+                        <div class="info">
+                            <span class="brand">rolex</span>
+                            <span class="ref">Ref. 126334</span>
+                        </div>
+                        <p class="title">
+                            AUDEMARS PIGUET ROYAL OAK
                         </p>
-                    </div>
+                        <div class="description">
+                            <span class="desc-title">Description</span>
+                            <p class="desc-text">
+                                Calendario completo, Oro bianco, Automatico, Diametro 40,5 mm, Anno 2018, Scatola e
+                                garanzia
+                                Patek Philippe, Garanzia WantedWatch 12 mesi
+                            </p>
+                        </div>
+                    </a>
                     <div class="cta">
                         <div class="price">€4 999</div>
-                        <a class="add-to-cart" href="#">
-                            <span class="dot"></span>
+                        <a class="add-to-cart" href="checkout.html">
                             <span class="mobile-text">add to cart</span>
-                            <img src="images/icons/arrow-right-gold-small.svg" alt="arrow" width="19">
+                            <svg width="20" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                 viewBox="0 0 11.7 4.5">
+                                <path class="st0" d="M11.3,2.5c0.1-0.1,0.1-0.3,0-0.4L9.5,0.3c-0.1-0.1-0.3-0.1-0.4,0C9,0.4,9,0.5,9.1,0.7l1.6,1.6L9.1,3.9
+                            C9,4,9,4.2,9.1,4.3c0.1,0.1,0.3,0.1,0.4,0L11.3,2.5z M11.1,2H0.2v0.6h10.9V2z"/>
+                            </svg>
+
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-item" data-aos="fade-up" data-aos-delay="100">
+                    <a href="product-detail.html">
+                        <div class="image-container">
+                            <img src="images/category-image4.jpg" class="img-fluid" alt="category-image">
+                        </div>
+                        <div class="info">
+                            <span class="brand">rolex</span>
+                            <span class="ref">Ref. 126334</span>
+                        </div>
+                        <p class="title">
+                            Rolex Datelust
+                        </p>
+                        <div class="description">
+                            <span class="desc-title">Description</span>
+                            <p class="desc-text">
+                                Calendario completo, Oro bianco, Automatico, Diametro 40,5 mm, Anno 2018, Scatola e
+                                garanzia
+                                Patek Philippe, Garanzia WantedWatch 12 mesi
+                            </p>
+                        </div>
+                    </a>
+                    <div class="cta">
+                        <div class="price">€52 000</div>
+                        <a class="add-to-cart" href="checkout.html">
+
+                            <span class="mobile-text">add to cart</span>
+                            <svg width="20" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                 viewBox="0 0 11.7 4.5">
+                                <path class="st0" d="M11.3,2.5c0.1-0.1,0.1-0.3,0-0.4L9.5,0.3c-0.1-0.1-0.3-0.1-0.4,0C9,0.4,9,0.5,9.1,0.7l1.6,1.6L9.1,3.9
+                            C9,4,9,4.2,9.1,4.3c0.1,0.1,0.3,0.1,0.4,0L11.3,2.5z M11.1,2H0.2v0.6h10.9V2z"/>
+                            </svg>
+
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-item" data-aos="fade-up" data-aos-delay="150">
+                    <a href="product-detail.html">
+                        <div class="image-container">
+                            <img src="images/category-image.jpg" class="img-fluid" alt="category-image">
+                        </div>
+                        <div class="info">
+                            <span class="brand">rolex</span>
+                            <span class="ref">Ref. 126334</span>
+                        </div>
+                        <p class="title">
+                            Rolex Datelust
+                        </p>
+                        <div class="description">
+                            <span class="desc-title">Description</span>
+                            <p class="desc-text">
+                                Calendario completo, Oro bianco, Automatico, Diametro 40,5 mm, Anno 2018, Scatola e
+                                garanzia
+                                Patek Philippe, Garanzia WantedWatch 12 mesi
+                            </p>
+                        </div>
+                    </a>
+                    <div class="cta">
+                        <div class="price">€52 000</div>
+                        <a class="add-to-cart" href="checkout.html">
+
+                            <span class="mobile-text">add to cart</span>
+                            <svg width="20" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                 viewBox="0 0 11.7 4.5">
+                                <path class="st0" d="M11.3,2.5c0.1-0.1,0.1-0.3,0-0.4L9.5,0.3c-0.1-0.1-0.3-0.1-0.4,0C9,0.4,9,0.5,9.1,0.7l1.6,1.6L9.1,3.9
+                            C9,4,9,4.2,9.1,4.3c0.1,0.1,0.3,0.1,0.4,0L11.3,2.5z M11.1,2H0.2v0.6h10.9V2z"/>
+                            </svg>
+
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-item" data-aos="fade-up" data-aos-delay="200">
+                    <a href="product-detail.html">
+                        <div class="image-container">
+                            <img src="images/category-image2.jpg" class="img-fluid" alt="category-image">
+                        </div>
+                        <div class="info">
+                            <span class="brand">rolex</span>
+                            <span class="ref">Ref. 126334</span>
+                        </div>
+                        <p class="title">
+                            Rolex Datelust
+                        </p>
+                        <div class="description">
+                            <span class="desc-title">Description</span>
+                            <p class="desc-text">
+                                Calendario completo, Oro bianco, Automatico, Diametro 40,5 mm, Anno 2018, Scatola e
+                                garanzia
+                                Patek Philippe, Garanzia WantedWatch 12 mesi
+                            </p>
+                        </div>
+                    </a>
+                    <div class="cta">
+                        <div class="price">€52 000</div>
+                        <a class="add-to-cart" href="checkout.html">
+
+                            <span class="mobile-text">add to cart</span>
+                            <svg width="20" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                 viewBox="0 0 11.7 4.5">
+                                <path class="st0" d="M11.3,2.5c0.1-0.1,0.1-0.3,0-0.4L9.5,0.3c-0.1-0.1-0.3-0.1-0.4,0C9,0.4,9,0.5,9.1,0.7l1.6,1.6L9.1,3.9
+                            C9,4,9,4.2,9.1,4.3c0.1,0.1,0.3,0.1,0.4,0L11.3,2.5z M11.1,2H0.2v0.6h10.9V2z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-item" data-aos="fade-up" data-aos-delay="250">
+                    <a href="product-detail.html">
+                        <div class="image-container">
+                            <img src="images/category-image3.jpg" class="img-fluid" alt="category-image">
+                        </div>
+                        <div class="info">
+                            <span class="brand">rolex</span>
+                            <span class="ref">Ref. 126334</span>
+                        </div>
+                        <p class="title">
+                            AUDEMARS PIGUET ROYAL OAK
+                        </p>
+                        <div class="description">
+                            <span class="desc-title">Description</span>
+                            <p class="desc-text">
+                                Calendario completo, Oro bianco, Automatico, Diametro 40,5 mm, Anno 2018, Scatola e
+                                garanzia
+                                Patek Philippe, Garanzia WantedWatch 12 mesi
+                            </p>
+                        </div>
+                    </a>
+                    <div class="cta">
+                        <div class="price">€4 999</div>
+                        <a class="add-to-cart" href="checkout.html">
+                            <span class="mobile-text">add to cart</span>
+                            <svg width="20" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                 viewBox="0 0 11.7 4.5">
+                                <path class="st0" d="M11.3,2.5c0.1-0.1,0.1-0.3,0-0.4L9.5,0.3c-0.1-0.1-0.3-0.1-0.4,0C9,0.4,9,0.5,9.1,0.7l1.6,1.6L9.1,3.9
+                            C9,4,9,4.2,9.1,4.3c0.1,0.1,0.3,0.1,0.4,0L11.3,2.5z M11.1,2H0.2v0.6h10.9V2z"/>
+                            </svg>
+
                         </a>
                     </div>
                 </div>

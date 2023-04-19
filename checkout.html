@@ -25,6 +25,27 @@
             </div>
             <div class="nav-menu-container">
                 <div class="item-list">
+                    <div class="searchbar-container mobile">
+                        <form action="" class="position-relative">
+                            <input type="text" name="search_bar" class="search_bar" placeholder="Search...">
+
+                            <button type="submit" class="search_bar_btn">
+                                <img src="images/icons/search-icon.svg" alt="searchbar" width="20">
+                            </button>
+                        </form>
+                    </div>
+                    <div class="language-selector mobile">
+                        <div class="dropdown">
+                            <div class="dropdown-toggle language-selector lang-dd" data-bs-toggle="dropdown">
+                                IT
+                            </div>
+                            <ul class="dropdown-menu lang-dd">
+                                <li><a class="dropdown-item" href="#">Italian</a></li>
+                                <li><a class="dropdown-item" href="#">English</a></li>
+                                <li><a class="dropdown-item" href="#">Francais</a></li>
+                            </ul>
+                        </div>
+                    </div>
                     <a href="index.html" class="menu-item">Home</a>
                     <a href="about.html" class="menu-item">Who we are</a>
                     <span class="menu-item menu-item-toggle">
@@ -55,11 +76,11 @@
                 </div>
 
                 <div class="info-container">
-                    <div class="searchbar-container">
+                    <div class="searchbar-container desktop">
                         <form action="" class="position-relative">
-                            <input type="text" name="search_bar" id="search_bar" placeholder="Search...">
+                            <input type="text" name="search_bar" class="search_bar" placeholder="Search...">
 
-                            <button type="submit" id="search_bar_btn">
+                            <button type="submit" class="search_bar_btn">
                                 <img src="images/icons/search-icon.svg" alt="searchbar" width="20">
                             </button>
                         </form>
@@ -74,7 +95,7 @@
                             CART
                         </a>
                     </div>
-                    <div class="language-selector">
+                    <div class="language-selector desktop">
                         <div class="dropdown">
                             <div class="dropdown-toggle language-selector lang-dd" data-bs-toggle="dropdown">
                                 IT
@@ -122,7 +143,7 @@
             <section class="checkout-section">
                 <div class="summary-container">
                     <div class="product-list">
-                        <div class="product">
+                        <div class="product" data-aos="fade-right">
                             <a class="product-image-link" href="product-detail.html">
                                 <img class="product-image img-fluid" src="images/product-detail2.jpg" alt="product image name">
                             </a>
@@ -141,7 +162,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="product">
+                        <div class="product" data-aos="fade-right">
                             <a class="product-image-link" href="product-detail.html">
                                 <img class="product-image img-fluid" src="images/product-detail.jpg" alt="product image name">
                             </a>
@@ -161,11 +182,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="shipping-container">
+                    <div class="shipping-container" data-aos="fade-up">
                         <p class="title">Shipping:</p>
                         <p class="shipping-total">€ 125</p>
                     </div>
-                    <div class="total-container">
+                    <div class="total-container" data-aos="fade-up">
                         <p class="title">Total:</p>
                         <p class="checkout-total">€75 125</p>
                     </div>
@@ -173,123 +194,107 @@
             </section>
 
             <section class="billing-details">
-            <h3 class="title">Billing Details</h3>
+            <h3 class="title" data-aos="fade-down">Billing Details</h3>
             <div class="row">
-                <div class="col-12 col-sm-6 mb-5">
+                <div class="col-12 col-sm-6 mb-5" data-aos="fade-right">
                     <div class="ww-input-container">
                         <input type="text" id="billing_name" name="billing_name" placeholder="Your name" required>
                         <label for="billing_name">YOUR FIRST NAME*</label>
                     </div>
                 </div>
-
-                <div class="col-12 col-sm-6 mb-5">
+                <div class="col-12 col-sm-6 mb-5" data-aos="fade-right">
                     <div class="ww-input-container">
                         <input type="text" id="billing_surname" name="billing_surname" placeholder="Your surname" required>
                         <label for="billing_surname">YOUR LAST NAME*</label>
                     </div>
                 </div>
-
-                <div class="col-12">
+                <div class="col-12" data-aos="fade-right">
                     <div class="ww-input-container mb-5">
                         <input type="text" id="billing_company_name" name="billing_company_name" placeholder="Name of the company">
                         <label for="billing_company_name">COMPANY NAME</label>
                     </div>
                 </div>
-
-                <div class="col-6 mb-5">
+                <div class="col-6 mb-5" data-aos="fade-right">
                     <div class="ww-input-container">
                         <input type="text" id="vat_number" name="vat_number" placeholder="VAT number">
                         <label for="vat_number">VAT NUMBER</label>
                     </div>
                 </div>
-
-                <div class="col-6 mb-5">
+                <div class="col-6 mb-5" data-aos="fade-right">
                     <div class="ww-input-container">
                         <input type="text" id="tax_id_code" name="tax_id_code" placeholder="tax ID code" >
                         <label for="tax_id_code">TAX ID CODE</label>
                     </div>
                 </div>
-
-                <div class="col-6 mb-5">
+                <div class="col-6 mb-5" data-aos="fade-right">
                     <div class="ww-input-container">
                         <input type="text" id="sdi" name="sdi" placeholder="Recipient code" >
                         <label for="sdi">RECIPIENT CODE</label>
                     </div>
                 </div>
-
-                <div class="col-6 mb-5">
+                <div class="col-6 mb-5" data-aos="fade-right">
                     <div class="ww-input-container">
                         <input type="text" id="pec" name="pec" placeholder="Enter Address" >
                         <label for="pec">PEC ADDRESS</label>
                     </div>
                 </div>
-
-                <div class="col-12 col-sm-6 mb-5">
+                <div class="col-12 col-sm-6 mb-5" data-aos="fade-right">
                     <label for="billing_country">COUNTRY*</label>
                     <select name="billing_country" id="billing_country">
                         <option value="">Choose country</option>
                         <option value="96">Italy</option>
                     </select>
                 </div>
-
-                <div class="col-12 col-sm-6 mb-5">
+                <div class="col-12 col-sm-6 mb-5" data-aos="fade-right">
                     <div class="ww-input-container">
                         <input type="text" id="billing_county" name="billing_county" placeholder="Enter State" required>
                         <label for="billing_county">STATE*</label>
                     </div>
                 </div>
-
-                <div class="col-12 col-sm-3 mb-5">
+                <div class="col-12 col-sm-3 mb-5" data-aos="fade-right">
                     <div class="ww-input-container">
                         <input type="text" id="billing_city" name="billing_city" placeholder="Enter City" required>
                         <label for="billing_city">CITY*</label>
                     </div>
                 </div>
-
-                <div class="col-12 col-sm-3 mb-5">
+                <div class="col-12 col-sm-3 mb-5" data-aos="fade-right">
                     <div class="ww-input-container">
                         <input type="text" id="billing_postcode" name="billing_postcode" placeholder="Postal Code" required>
                         <label for="billing_postcode">POSTAL CODE*</label>
                     </div>
                 </div>
-
-                <div class="col-12 col-sm-6 mb-5">
+                <div class="col-12 col-sm-6 mb-5" data-aos="fade-right">
                     <div class="ww-input-container">
                         <input type="text" id="billing_address" name="billing_address" placeholder="Enter street and number" required>
                         <label for="billing_address">STREET AND NUMBER*</label>
                     </div>
                 </div>
-
-                <div class="col-12 col-sm-6 mb-5">
+                <div class="col-12 col-sm-6 mb-5" data-aos="fade-right">
                     <div class="ww-input-container">
                         <input type="email" id="shipping_email" name="shipping_email" placeholder="Enter email for invoicing" required>
                         <label for="shipping_email">EMAIL*</label>
                     </div>
                 </div>
-
-                <div class="col-12 col-sm-6 mb-5">
+                <div class="col-12 col-sm-6 mb-5" data-aos="fade-right">
                     <div class="ww-input-container">
                         <input type="text" id="shipping_telephone" name="shipping_telephone" placeholder="+39 3312598741" required>
                         <label for="shipping_telephone">PHONE NUMBER*</label>
                     </div>
                 </div>
-
-                <div class="col-12 mb-3">
+                <div class="col-12 mb-3" data-aos="fade-right">
                     <div class="ww-input-container">
                         <textarea name="order_notes" id="order_notes" cols="30" rows="4" placeholder="Please enter any wishes or suggestions regarding the order"></textarea>
                         <label for="order_notes">ORDER NOTES</label>
                     </div>
                 </div>
-
-                <div class="col-12 mb-5">
+                <div class="col-12 mb-5" data-aos="fade-right">
                     <div class="ww-input-container bb-gold pb-1 position-relative input-file-container">
                         <label for="customer_document_id"><small class="text-light-grey">Please upload copy of your ID</small></label>
                         <input type="file" name="customer_document_id" id="customer_document_id">
                         <div class="file-button-text">Upload your ID</div>
                     </div>
                 </div>
-
-                <div class="col-12 mb-5">
+                <div class="col-12 mb-5" data-aos="fade-right">
                     <div class="d-flex align-items-center">
                         <input type="checkbox" name="ship_to_different_address" id="ship_to_different_address" class="me-3" >
                         <label for="ship_to_different_address">SHIP TO A DIFFERENT ADDRESS</label>
@@ -377,21 +382,18 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="col-12 col-sm-7 mb-5 ww-input-column">
+                <div class="col-12 col-sm-7 mb-5 ww-input-column" data-aos="fade-up">
                     <p class="ww-title">Deposit/Exchange</p>
                     <p class="ww-subtitle mb-0">If you have agreed with us an exchange or an advance,
                         select and enter the amount:</p>
                 </div>
-
-                <div class="col-12 col-sm-5 mb-5 d-flex align-items-end">
+                <div class="col-12 col-sm-5 mb-5 d-flex align-items-end" data-aos="fade-up">
                     <div class="input-number-currency-cont w-100">
                         <input type="number" name="deposit_value" id="deposit_value" class="money" placeholder="0" min="1">
                         <span class="currency-symbol">€</span>
                     </div>
                 </div>
-
-                <div class="col-12 mb-5 ww-input-column">
+                <div class="col-12 mb-5 ww-input-column" data-aos="fade-up">
                     <p class="ww-title">Payment method</p>
                     <div class="d-flex">
                         <div class="d-flex align-items-center me-5">
@@ -405,15 +407,13 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="col-12 col-sm-7 mb-5 ww-input-column align-self-center">
+                <div class="col-12 col-sm-7 mb-5 ww-input-column align-self-center" data-aos="fade-up">
                     <div class="d-flex align-items-center">
                         <input type="checkbox" name="privacy_consent" id="privacy_consent" class="me-3" required>
                         <label for="privacy_consent">I have read and accept the website terms and conditions *</label>
                     </div>
                 </div>
-
-                <div class="col-12 col-sm-5 mb-0 mb-sm-5 d-flex align-items-end">
+                <div class="col-12 col-sm-5 mb-0 mb-sm-5 d-flex align-items-end" data-aos="fade-up">
                     <button type="submit" id="form_submit" class="ww-btn btn-gold btn-lg" disabled>
                         PLACE ORDER
                         <svg width="30" x="0px" y="0px" class="fill-white ms-2"
@@ -423,7 +423,6 @@
                         </svg>
                     </button>
                 </div>
-
             </div>
         </section>
         </form>
